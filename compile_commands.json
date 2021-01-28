@@ -1,0 +1,1022 @@
+[
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/quickjs/cutils.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/cutils.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/cutils.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/quickjs/libbf.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libbf.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libbf.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/quickjs/libunicode.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libunicode.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libunicode.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/quickjs/libregexp.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libregexp.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libregexp.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/quickjs/quickjs.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/quickjs.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/quickjs.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/quickjs.enclave.dir/3rdparty/stub/time.c.o -c /home/ubuntu/CCF/3rdparty/stub/time.c",
+  "file": "/home/ubuntu/CCF/3rdparty/stub/time.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/json_schema.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/json_schema.dir/src/ds/test/json_schema.cpp.o -c /home/ubuntu/CCF/src/ds/test/json_schema.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/json_schema.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ledger_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ledger_test.dir/src/host/test/ledger.cpp.o -c /home/ubuntu/CCF/src/host/test/ledger.cpp",
+  "file": "/home/ubuntu/CCF/src/host/test/ledger.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/member_voting_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/member_voting_test.dir/src/node/rpc/test/member_voting_test.cpp.o -c /home/ubuntu/CCF/src/node/rpc/test/member_voting_test.cpp",
+  "file": "/home/ubuntu/CCF/src/node/rpc/test/member_voting_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_FORTIFY_SOURCE=2 -D_LIBCPP_HAS_THREAD_API_PTHREAD -Dlogging_virtual_EXPORTS -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/logging.virtual.dir/samples/apps/logging/logging.cpp.o -c /home/ubuntu/CCF/samples/apps/logging/logging.cpp",
+  "file": "/home/ubuntu/CCF/samples/apps/logging/logging.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -stdlib=libc++ -std=gnu++17 -o CMakeFiles/aft.virtual.dir/src/consensus/aft/impl/execution.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/impl/execution.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/impl/execution.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DHAVE_CONFIG_H -DSECP256K1_BUILD -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -o CMakeFiles/secp256k1.host.dir/3rdparty/secp256k1/src/secp256k1.c.o -c /home/ubuntu/CCF/3rdparty/secp256k1/src/secp256k1.c",
+  "file": "/home/ubuntu/CCF/3rdparty/secp256k1/src/secp256k1.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -D__USE_SYSTEM_ENDIAN_H__ -I../src -I../src/ds -I../openenclave::oelibc-lvi-cfg -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -nostdinc++ -std=gnu++17 -o CMakeFiles/aft.enclave.dir/src/consensus/aft/impl/execution.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/impl/execution.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/impl/execution.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -Djs_generic_enclave_EXPORTS -I../src -I../3rdparty/quickjs -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -isystem generated -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -nostdinc -DCONFIG_VERSION=\\\"2020-11-08\\\" -DEMSCRIPTEN -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -nostdinc++ -std=gnu++17 -o CMakeFiles/js_generic.enclave.dir/src/apps/js_generic/js_generic.cpp.o -c /home/ubuntu/CCF/src/apps/js_generic/js_generic.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/js_generic/js_generic.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/key_exchange_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/key_exchange_test.dir/src/tls/test/key_exchange.cpp.o -c /home/ubuntu/CCF/src/tls/test/key_exchange.cpp",
+  "file": "/home/ubuntu/CCF/src/tls/test/key_exchange.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/history_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/history_test.dir/src/node/test/history.cpp.o -c /home/ubuntu/CCF/src/node/test/history.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/history.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/kv/test/kv_test.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_test.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/kv/test/kv_contention.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_contention.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_contention.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/kv/test/kv_serialisation.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_serialisation.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_serialisation.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/kv/test/kv_snapshot.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_snapshot.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_snapshot.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/kv_test.dir/src/kv/test/kv_dynamic_tables.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_dynamic_tables.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_dynamic_tables.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_FORTIFY_SOURCE=2 -D_LIBCPP_HAS_THREAD_API_PTHREAD -Djs_generic_virtual_EXPORTS -I../src -I../3rdparty/quickjs -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -DCONFIG_VERSION=\\\"2020-11-08\\\" -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/js_generic.virtual.dir/src/apps/js_generic/js_generic.cpp.o -c /home/ubuntu/CCF/src/apps/js_generic/js_generic.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/js_generic/js_generic.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc++ -m64 -fPIE -nostdinc -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -std=gnu++17 -o CMakeFiles/ccfcrypto.enclave.dir/src/crypto/hash.cpp.o -c /home/ubuntu/CCF/src/crypto/hash.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/hash.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc++ -m64 -fPIE -nostdinc -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -std=gnu++17 -o CMakeFiles/ccfcrypto.enclave.dir/src/crypto/symmetric_key.cpp.o -c /home/ubuntu/CCF/src/crypto/symmetric_key.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/symmetric_key.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc -nostdinc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -std=gnu++17 -o CMakeFiles/ccf.enclave.dir/src/enclave/main.cpp.o -c /home/ubuntu/CCF/src/enclave/main.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc -nostdinc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -std=gnu++17 -o CMakeFiles/ccf.enclave.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -O2 -g -DNDEBUG -fPIC -nostdinc -nostdinc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -std=gnu++17 -o CMakeFiles/ccf.enclave.dir/generated/ccf_t.cpp.o -c /home/ubuntu/CCF/build/generated/ccf_t.cpp",
+  "file": "/home/ubuntu/CCF/build/generated/ccf_t.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lapi.c.o -c /home/ubuntu/CCF/3rdparty/lua/lapi.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lapi.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lauxlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lauxlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lauxlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lbaselib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lbaselib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lbaselib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lcode.c.o -c /home/ubuntu/CCF/3rdparty/lua/lcode.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lcode.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lcorolib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lcorolib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lcorolib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lctype.c.o -c /home/ubuntu/CCF/3rdparty/lua/lctype.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lctype.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ldebug.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldebug.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldebug.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ldo.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldo.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldo.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ldump.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldump.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldump.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lfunc.c.o -c /home/ubuntu/CCF/3rdparty/lua/lfunc.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lfunc.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lgc.c.o -c /home/ubuntu/CCF/3rdparty/lua/lgc.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lgc.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/llex.c.o -c /home/ubuntu/CCF/3rdparty/lua/llex.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/llex.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lmathlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lmathlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lmathlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lmem.c.o -c /home/ubuntu/CCF/3rdparty/lua/lmem.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lmem.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lobject.c.o -c /home/ubuntu/CCF/3rdparty/lua/lobject.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lobject.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lopcodes.c.o -c /home/ubuntu/CCF/3rdparty/lua/lopcodes.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lopcodes.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lparser.c.o -c /home/ubuntu/CCF/3rdparty/lua/lparser.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lparser.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lstate.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstate.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstate.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lstring.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstring.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstring.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lstrlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstrlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstrlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ltable.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltable.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltable.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ltablib.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltablib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltablib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/ltm.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltm.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltm.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lundump.c.o -c /home/ubuntu/CCF/3rdparty/lua/lundump.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lundump.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lutf8lib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lutf8lib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lutf8lib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lvm.c.o -c /home/ubuntu/CCF/3rdparty/lua/lvm.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lvm.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -Wno-string-plus-int -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/lua.enclave.dir/3rdparty/lua/lzio.c.o -c /home/ubuntu/CCF/3rdparty/lua/lzio.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lzio.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/openapi_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/openapi_test.dir/src/ds/test/openapi.cpp.o -c /home/ubuntu/CCF/src/ds/test/openapi.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/openapi.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.host.dir/3rdparty/sss/sss.c.o -c /home/ubuntu/CCF/3rdparty/sss/sss.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/sss.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.host.dir/3rdparty/sss/hazmat.c.o -c /home/ubuntu/CCF/3rdparty/sss/hazmat.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/hazmat.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.host.dir/3rdparty/sss/tweetnacl.c.o -c /home/ubuntu/CCF/3rdparty/sss/tweetnacl.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/tweetnacl.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.enclave.dir/3rdparty/sss/sss.c.o -c /home/ubuntu/CCF/3rdparty/sss/sss.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/sss.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.enclave.dir/3rdparty/sss/hazmat.c.o -c /home/ubuntu/CCF/3rdparty/sss/hazmat.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/hazmat.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/sss.enclave.dir/3rdparty/sss/tweetnacl.c.o -c /home/ubuntu/CCF/3rdparty/sss/tweetnacl.c",
+  "file": "/home/ubuntu/CCF/3rdparty/sss/tweetnacl.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/historical_queries_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/historical_queries_test.dir/src/node/test/historical_queries.cpp.o -c /home/ubuntu/CCF/src/node/test/historical_queries.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/historical_queries.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -DCONFIG_VERSION=\\\"2020-11-08\\\" -o CMakeFiles/quickjs.host.dir/3rdparty/quickjs/cutils.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/cutils.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/cutils.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -DCONFIG_VERSION=\\\"2020-11-08\\\" -o CMakeFiles/quickjs.host.dir/3rdparty/quickjs/libbf.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libbf.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libbf.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -DCONFIG_VERSION=\\\"2020-11-08\\\" -o CMakeFiles/quickjs.host.dir/3rdparty/quickjs/libunicode.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libunicode.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libunicode.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -DCONFIG_VERSION=\\\"2020-11-08\\\" -o CMakeFiles/quickjs.host.dir/3rdparty/quickjs/libregexp.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/libregexp.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/libregexp.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/quickjs -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -DCONFIG_VERSION=\\\"2020-11-08\\\" -o CMakeFiles/quickjs.host.dir/3rdparty/quickjs/quickjs.c.o -c /home/ubuntu/CCF/3rdparty/quickjs/quickjs.c",
+  "file": "/home/ubuntu/CCF/3rdparty/quickjs/quickjs.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -Igenerated -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -Wall -Wextra -Werror -Wundef -Wpedantic -stdlib=libc++ -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -fstack-protector-strong -std=gnu++17 -o CMakeFiles/cchost.dir/src/host/main.cpp.o -c /home/ubuntu/CCF/src/host/main.cpp",
+  "file": "/home/ubuntu/CCF/src/host/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -Igenerated -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -Wall -Wextra -Werror -Wundef -Wpedantic -stdlib=libc++ -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -fstack-protector-strong -std=gnu++17 -o CMakeFiles/cchost.dir/generated/ccf_u.cpp.o -c /home/ubuntu/CCF/build/generated/ccf_u.cpp",
+  "file": "/home/ubuntu/CCF/build/generated/ccf_u.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/secret_sharing_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/secret_sharing_test.dir/src/node/test/secret_share.cpp.o -c /home/ubuntu/CCF/src/node/test/secret_share.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/secret_share.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -Dsmallbank_enclave_EXPORTS -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -isystem generated -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -m64 -fPIE -nostdinc -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -nostdinc++ -std=gnu++17 -o CMakeFiles/smallbank.enclave.dir/src/apps/smallbank/app/smallbank.cpp.o -c /home/ubuntu/CCF/src/apps/smallbank/app/smallbank.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/smallbank/app/smallbank.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DGET_QUOTE -DINSIDE_ENCLAVE -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -D_LIBCPP_HAS_THREAD_API_PTHREAD -Dlogging_enclave_EXPORTS -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libcxx -isystem /opt/openenclave/include/openenclave/3rdparty/libc -isystem /opt/openenclave/include/openenclave/3rdparty -isystem generated -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -m64 -fPIE -nostdinc -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -nostdinc++ -std=gnu++17 -o CMakeFiles/logging.enclave.dir/samples/apps/logging/logging.cpp.o -c /home/ubuntu/CCF/samples/apps/logging/logging.cpp",
+  "file": "/home/ubuntu/CCF/samples/apps/logging/logging.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -stdlib=libc++ -std=gnu++17 -o CMakeFiles/ccfcrypto.host.dir/src/crypto/hash.cpp.o -c /home/ubuntu/CCF/src/crypto/hash.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/hash.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -stdlib=libc++ -std=gnu++17 -o CMakeFiles/ccfcrypto.host.dir/src/crypto/symmetric_key.cpp.o -c /home/ubuntu/CCF/src/crypto/symmetric_key.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/symmetric_key.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/scenario_perf_client.dir/src/perf_client/scenario_perf_client.cpp.o -c /home/ubuntu/CCF/src/perf_client/scenario_perf_client.cpp",
+  "file": "/home/ubuntu/CCF/src/perf_client/scenario_perf_client.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/json_bench.dir/src/ds/test/json_bench.cpp.o -c /home/ubuntu/CCF/src/ds/test/json_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/json_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lapi.c.o -c /home/ubuntu/CCF/3rdparty/lua/lapi.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lapi.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lauxlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lauxlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lauxlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lbaselib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lbaselib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lbaselib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lcode.c.o -c /home/ubuntu/CCF/3rdparty/lua/lcode.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lcode.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lcorolib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lcorolib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lcorolib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lctype.c.o -c /home/ubuntu/CCF/3rdparty/lua/lctype.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lctype.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ldebug.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldebug.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldebug.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ldo.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldo.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldo.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ldump.c.o -c /home/ubuntu/CCF/3rdparty/lua/ldump.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ldump.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lfunc.c.o -c /home/ubuntu/CCF/3rdparty/lua/lfunc.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lfunc.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lgc.c.o -c /home/ubuntu/CCF/3rdparty/lua/lgc.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lgc.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/llex.c.o -c /home/ubuntu/CCF/3rdparty/lua/llex.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/llex.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lmathlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lmathlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lmathlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lmem.c.o -c /home/ubuntu/CCF/3rdparty/lua/lmem.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lmem.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lobject.c.o -c /home/ubuntu/CCF/3rdparty/lua/lobject.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lobject.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lopcodes.c.o -c /home/ubuntu/CCF/3rdparty/lua/lopcodes.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lopcodes.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lparser.c.o -c /home/ubuntu/CCF/3rdparty/lua/lparser.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lparser.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lstate.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstate.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstate.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lstring.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstring.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstring.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lstrlib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lstrlib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lstrlib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ltable.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltable.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltable.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ltablib.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltablib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltablib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/ltm.c.o -c /home/ubuntu/CCF/3rdparty/lua/ltm.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/ltm.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lundump.c.o -c /home/ubuntu/CCF/3rdparty/lua/lundump.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lundump.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lutf8lib.c.o -c /home/ubuntu/CCF/3rdparty/lua/lutf8lib.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lutf8lib.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lvm.c.o -c /home/ubuntu/CCF/3rdparty/lua/lvm.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lvm.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DNO_IO -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -Wno-string-plus-int -o CMakeFiles/lua.host.dir/3rdparty/lua/lzio.c.o -c /home/ubuntu/CCF/3rdparty/lua/lzio.c",
+  "file": "/home/ubuntu/CCF/3rdparty/lua/lzio.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../3rdparty/lua -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/lua_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../3rdparty/lua -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/lua_test.dir/src/lua_interp/test/lua_test.cpp.o -c /home/ubuntu/CCF/src/lua_interp/test/lua_test.cpp",
+  "file": "/home/ubuntu/CCF/src/lua_interp/test/lua_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../3rdparty/lua -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/lua_test.dir/src/lua_interp/test/lua_kv.cpp.o -c /home/ubuntu/CCF/src/lua_interp/test/lua_kv.cpp",
+  "file": "/home/ubuntu/CCF/src/lua_interp/test/lua_kv.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/map_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/map_test.dir/src/ds/test/map_test.cpp.o -c /home/ubuntu/CCF/src/ds/test/map_test.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/map_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/http_parser.enclave.dir/3rdparty/llhttp/api.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/api.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/api.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/http_parser.enclave.dir/3rdparty/llhttp/http.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/http.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/http.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DOE_BUILD_ENCLAVE -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -nostdinc -m64 -fPIE -fstack-protector-strong -fvisibility=hidden -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/http_parser.enclave.dir/3rdparty/llhttp/llhttp.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/llhttp.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/llhttp.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/tx_status_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/tx_status_test.dir/src/node/rpc/test/tx_status_test.cpp.o -c /home/ubuntu/CCF/src/node/rpc/test/tx_status_test.cpp",
+  "file": "/home/ubuntu/CCF/src/node/rpc/test/tx_status_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/tls_bench.dir/src/tls/test/bench.cpp.o -c /home/ubuntu/CCF/src/tls/test/bench.cpp",
+  "file": "/home/ubuntu/CCF/src/tls/test/bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/logger_json_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/logger_json_test.dir/src/ds/test/logger_json_test.cpp.o -c /home/ubuntu/CCF/src/ds/test/logger_json_test.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/logger_json_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/ring_buffer.cpp.o -c /home/ubuntu/CCF/src/ds/test/ring_buffer.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/ring_buffer.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/messaging.cpp.o -c /home/ubuntu/CCF/src/ds/test/messaging.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/messaging.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/oversized.cpp.o -c /home/ubuntu/CCF/src/ds/test/oversized.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/oversized.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/typed_messages.cpp.o -c /home/ubuntu/CCF/src/ds/test/typed_messages.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/typed_messages.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/serializer.cpp.o -c /home/ubuntu/CCF/src/ds/test/serializer.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/serializer.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/hash.cpp.o -c /home/ubuntu/CCF/src/ds/test/hash.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/hash.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ds_test.dir/src/ds/test/thread_messaging.cpp.o -c /home/ubuntu/CCF/src/ds/test/thread_messaging.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/thread_messaging.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/raft_enclave_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/raft_enclave_test.dir/src/consensus/aft/test/enclave.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/test/enclave.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/test/enclave.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/snapshotter_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/snapshotter_test.dir/src/node/test/snapshotter.cpp.o -c /home/ubuntu/CCF/src/node/test/snapshotter.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/snapshotter.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/msgpack_serialization_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/msgpack_serialization_test.dir/src/node/test/msgpack_serialization.cpp.o -c /home/ubuntu/CCF/src/node/test/msgpack_serialization.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/msgpack_serialization.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DUSE_POSIX_COMMIT_CHECKS -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -I../src -I/opt/openenclave/include -Igenerated -I../3rdparty/snmalloc/src -isystem ../3rdparty -O2 -g -DNDEBUG -stdlib=libc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -mcx16 -std=gnu++17 -o CMakeFiles/cchost.virtual.dir/src/enclave/snmalloc.cpp.o -c /home/ubuntu/CCF/src/enclave/snmalloc.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/snmalloc.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DUSE_POSIX_COMMIT_CHECKS -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -I../src -I/opt/openenclave/include -Igenerated -I../3rdparty/snmalloc/src -isystem ../3rdparty -O2 -g -DNDEBUG -stdlib=libc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -mcx16 -std=gnu++17 -o CMakeFiles/cchost.virtual.dir/src/host/main.cpp.o -c /home/ubuntu/CCF/src/host/main.cpp",
+  "file": "/home/ubuntu/CCF/src/host/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/crypto_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/crypto_test.dir/src/crypto/test/crypto.cpp.o -c /home/ubuntu/CCF/src/crypto/test/crypto.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/test/crypto.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/progress_tracker_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/progress_tracker_test.dir/src/node/test/progress_tracker.cpp.o -c /home/ubuntu/CCF/src/node/test/progress_tracker.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/progress_tracker.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DHAVE_CONFIG_H -DOE_BUILD_ENCLAVE -DSECP256K1_BUILD -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -isystem /opt/openenclave/include/openenclave/3rdparty/libc -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -nostdinc -m64 -fPIE -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -ftls-model=local-exec -o CMakeFiles/secp256k1.enclave.dir/3rdparty/secp256k1/src/secp256k1.c.o -c /home/ubuntu/CCF/3rdparty/secp256k1/src/secp256k1.c",
+  "file": "/home/ubuntu/CCF/3rdparty/secp256k1/src/secp256k1.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/encryptor_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/encryptor_test.dir/src/node/test/encryptor.cpp.o -c /home/ubuntu/CCF/src/node/test/encryptor.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/encryptor.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/encryptor_test.dir/src/crypto/symmetric_key.cpp.o -c /home/ubuntu/CCF/src/crypto/symmetric_key.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/symmetric_key.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/http_parser.host.dir/3rdparty/llhttp/api.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/api.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/api.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/http_parser.host.dir/3rdparty/llhttp/http.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/http.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/http.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang-8 -DVERBOSE_LOGGING -I../src -isystem ../3rdparty -O2 -g -DNDEBUG -fPIC -o CMakeFiles/http_parser.host.dir/3rdparty/llhttp/llhttp.c.o -c /home/ubuntu/CCF/3rdparty/llhttp/llhttp.c",
+  "file": "/home/ubuntu/CCF/3rdparty/llhttp/llhttp.c"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/snapshot_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/snapshot_test.dir/src/node/test/snapshot.cpp.o -c /home/ubuntu/CCF/src/node/test/snapshot.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/snapshot.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/tls_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/tls_test.dir/src/tls/test/main.cpp.o -c /home/ubuntu/CCF/src/tls/test/main.cpp",
+  "file": "/home/ubuntu/CCF/src/tls/test/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -stdlib=libc++ -std=gnu++17 -o CMakeFiles/cert_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -stdlib=libc++ -std=gnu++17 -o CMakeFiles/cert_test.dir/src/tls/test/cert.cpp.o -c /home/ubuntu/CCF/src/tls/test/cert.cpp",
+  "file": "/home/ubuntu/CCF/src/tls/test/cert.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/hash_bench.dir/src/ds/test/hash_bench.cpp.o -c /home/ubuntu/CCF/src/ds/test/hash_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/hash_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/digest_bench.dir/src/crypto/test/digest_bench.cpp.o -c /home/ubuntu/CCF/src/crypto/test/digest_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/test/digest_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/channels_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/channels_test.dir/src/node/test/channels.cpp.o -c /home/ubuntu/CCF/src/node/test/channels.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/channels.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/kv_bench.dir/src/kv/test/kv_bench.cpp.o -c /home/ubuntu/CCF/src/kv/test/kv_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/kv/test/kv_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/kv_bench.dir/src/crypto/symmetric_key.cpp.o -c /home/ubuntu/CCF/src/crypto/symmetric_key.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/symmetric_key.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/kv_bench.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/http_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/http_test.dir/src/http/test/http_test.cpp.o -c /home/ubuntu/CCF/src/http/test/http_test.cpp",
+  "file": "/home/ubuntu/CCF/src/http/test/http_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/frontend_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/frontend_test.dir/src/node/rpc/test/frontend_test.cpp.o -c /home/ubuntu/CCF/src/node/rpc/test/frontend_test.cpp",
+  "file": "/home/ubuntu/CCF/src/node/rpc/test/frontend_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/node_frontend_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/node_frontend_test.dir/src/node/rpc/test/node_frontend_test.cpp.o -c /home/ubuntu/CCF/src/node/rpc/test/node_frontend_test.cpp",
+  "file": "/home/ubuntu/CCF/src/node/rpc/test/node_frontend_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/merkle_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/merkle_test.dir/src/node/test/merkle_test.cpp.o -c /home/ubuntu/CCF/src/node/test/merkle_test.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/merkle_test.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/merkle_mem.dir/src/node/test/merkle_mem.cpp.o -c /home/ubuntu/CCF/src/node/test/merkle_mem.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/merkle_mem.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/ring_buffer_bench.dir/src/ds/test/ring_buffer_bench.cpp.o -c /home/ubuntu/CCF/src/ds/test/ring_buffer_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/ring_buffer_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/aft -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/raft_driver.dir/src/consensus/aft/test/driver.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/test/driver.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/test/driver.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/logger_bench.dir/src/ds/test/logger_bench.cpp.o -c /home/ubuntu/CCF/src/ds/test/logger_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/logger_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/perf_client -I../3rdparty/secp256k1 -isystem ../3rdparty -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/small_bank_client.dir/src/apps/smallbank/clients/small_bank_client.cpp.o -c /home/ubuntu/CCF/src/apps/smallbank/clients/small_bank_client.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/smallbank/clients/small_bank_client.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/map_bench.dir/src/ds/test/map_bench.cpp.o -c /home/ubuntu/CCF/src/ds/test/map_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/ds/test/map_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/merkle_bench.dir/src/node/test/merkle_bench.cpp.o -c /home/ubuntu/CCF/src/node/test/merkle_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/merkle_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/history_bench.dir/src/node/test/history_bench.cpp.o -c /home/ubuntu/CCF/src/node/test/history_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/node/test/history_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/apps/smallbank -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/small_bank_serdes_bench.dir/src/apps/smallbank/tests/small_bank_serdes_bench.cpp.o -c /home/ubuntu/CCF/src/apps/smallbank/tests/small_bank_serdes_bench.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/smallbank/tests/small_bank_serdes_bench.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/apps/smallbank -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/small_bank_serdes_bench.dir/src/crypto/symmetric_key.cpp.o -c /home/ubuntu/CCF/src/crypto/symmetric_key.cpp",
+  "file": "/home/ubuntu/CCF/src/crypto/symmetric_key.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DVERBOSE_LOGGING -I../src -I../src/apps/smallbank -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -O2 -g -DNDEBUG -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -std=gnu++17 -o CMakeFiles/small_bank_serdes_bench.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_FORTIFY_SOURCE=2 -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -O2 -g -DNDEBUG -fPIC -stdlib=libc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ccf.virtual.dir/src/enclave/main.cpp.o -c /home/ubuntu/CCF/src/enclave/main.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_FORTIFY_SOURCE=2 -D_LIBCPP_HAS_THREAD_API_PTHREAD -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -O2 -g -DNDEBUG -fPIC -stdlib=libc++ -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -fstack-protector-strong -std=gnu++17 -o CMakeFiles/ccf.virtual.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/raft_test.dir/src/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/raft_test.dir/src/consensus/aft/test/main.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/test/main.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/test/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/. -I../3rdparty/secp256k1 -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/raft_test.dir/src/consensus/aft/test/view_history.cpp.o -c /home/ubuntu/CCF/src/consensus/aft/test/view_history.cpp",
+  "file": "/home/ubuntu/CCF/src/consensus/aft/test/view_history.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DINSIDE_ENCLAVE -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -DVIRTUAL_ENCLAVE -D_FORTIFY_SOURCE=2 -D_LIBCPP_HAS_THREAD_API_PTHREAD -Dsmallbank_virtual_EXPORTS -I../src -I../3rdparty/secp256k1 -I../src/libmerklecpp/. -isystem ../3rdparty -isystem generated -isystem /opt/openenclave/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Werror -Wundef -Wpedantic -no-integrated-as -Wa,-mlfence-before-indirect-branch=register -Wa,-mlfence-before-ret=not -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o CMakeFiles/smallbank.virtual.dir/src/apps/smallbank/app/smallbank.cpp.o -c /home/ubuntu/CCF/src/apps/smallbank/app/smallbank.cpp",
+  "file": "/home/ubuntu/CCF/src/apps/smallbank/app/smallbank.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-serialisation.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-serialisation.dir/serialisation.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/serialisation.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/serialisation.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-time_large_trees.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-time_large_trees.dir/time_large_trees.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/time_large_trees.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/time_large_trees.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-demo_tree.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-demo_tree.dir/demo_tree.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/demo_tree.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/demo_tree.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-paths.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-paths.dir/paths.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/paths.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/paths.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-flush.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-flush.dir/flush.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/flush.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/flush.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-retract.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-retract.dir/retract.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/retract.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/retract.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-past_root.dir/__/__/enclave/thread_local.cpp.o -c /home/ubuntu/CCF/src/enclave/thread_local.cpp",
+  "file": "/home/ubuntu/CCF/src/enclave/thread_local.cpp"
+},
+{
+  "directory": "/home/ubuntu/CCF/build",
+  "command": "/opt/oe_lvi/clang++-8 -DOE_BUILD_HOST_VERIFY -DVERBOSE_LOGGING -D_FORTIFY_SOURCE=2 -I../src -I../src/libmerklecpp/test/src -I../src/libmerklecpp/. -isystem ../3rdparty -isystem /opt/openenclave/include -O2 -g -DNDEBUG -stdlib=libc++ -fstack-protector-strong -std=gnu++17 -o src/libmerklecpp/test/CMakeFiles/merklecpp-past_root.dir/past_root.cpp.o -c /home/ubuntu/CCF/src/libmerklecpp/test/past_root.cpp",
+  "file": "/home/ubuntu/CCF/src/libmerklecpp/test/past_root.cpp"
+}
+]
